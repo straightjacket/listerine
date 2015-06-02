@@ -9,17 +9,17 @@ using namespace std;
 
 namespace physics {
 	struct Atom {
-		int				protons,
-							neutrons,
-							electrons;
-		std::string		name,
-									symbol;
+		int		protons,
+				neutrons,
+				electrons;
+		std::string	name,
+				symbol;
 	};
 	struct PeriodicTable {
-		int			num;
+		int		num;
 		string	sym,
-						name;
+				name;
 		float		weight;
-		string	notes;
+		string		notes;
 	};
 }
