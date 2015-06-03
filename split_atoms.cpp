@@ -1,6 +1,12 @@
 #include "physics.h"
 #include <stdlib.h>
 
+/**
+ *	Theron Blount
+ *	June 2, 2015
+ **/
+
+
 void ReadInputFile(std::string fname) {
 }
 
@@ -37,7 +43,7 @@ int main()
 	string s;
 	readFile.open("atom_weight.txt");
 	
-	while(!readFile.eof()) {\
+	while(!readFile.eof()) {
 		string astr;
 		getline(readFile, s);
 		istringstream stream(s);
